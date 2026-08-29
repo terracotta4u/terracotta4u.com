@@ -16,9 +16,28 @@
     h1, h2, h3 {
       line-height: 1.2;
     }
+    h1 a {
+      color: inherit;
+      text-decoration: none;
+    }
+    nav a + a {
+      margin-left: 0.75em;
+    }
   </style>
 </head>
 <body>
+  <header>
+    <h1><a href="{{ "/" | relURL }}">Terracotta</a></h1>
+    <nav>
+      <a href="{{ "/golem/" | relURL }}">Golem</a>
+      <a href="{{ "/about/" | relURL }}">About</a>
+      <a href="https://github.com/terracotta4u">GitHub</a>
+    </nav>
+  </header>
   {{ block "main" . }}{{ end }}
+  <footer>
+    <hr>
+    <p>&copy; {{ now.Year }} Terracotta</p>
+  </footer>
 </body>
 </html>
