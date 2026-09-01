@@ -1,4 +1,5 @@
 +++
+author = 'Nawaz Gafar'
 date = '{{ .Date }}'
 draft = true
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
