@@ -14,6 +14,9 @@ hugo server
 
 # Build site
 hugo --minify
+
+# New post
+hugo new content blog/my-post.md
 ```
 
 ## Deploy
