@@ -5,6 +5,9 @@
       <article>
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         <p>{{ .Date.Format "January 2, 2006" }}</p>
+        {{ with .Params.blurb }}
+          <p>{{ . }}</p>
+        {{ end }}
       </article>
     {{ end }}
   {{ else }}
