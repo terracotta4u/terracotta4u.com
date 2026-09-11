@@ -1,10 +1,10 @@
 +++
-author = 'Nawaz Gafar'
-date = '2026-09-01T09:29:20-04:00'
-draft = false
 title = 'Introducing Golem'
+date = '2026-09-01T09:29:20-04:00'
+author = 'Nawaz Gafar'
 blurb = 'Golem is a personal AI assistant that grows with you and is fully open and extensible.'
 tags = ['golem']
+draft = false
 +++
 
 Today, I’m excited to share our first product: **Golem, the last AI you’ll ever need.**
