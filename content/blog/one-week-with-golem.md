@@ -1,5 +1,5 @@
 +++
-title = 'One Week With Golem'
+title = 'One Week with Golem'
 date = '2026-09-11T10:06:51-04:00'
 author = 'Nawaz Gafar'
 blurb = 'Golem gets a web interface.'
